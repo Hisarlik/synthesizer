@@ -1,0 +1,17 @@
+[project]
+name = "synthesizer"
+version = "0.0.1"
+description = "Synthetic data generator for NLP"
+license = { file = "LICENSE" }
+readme = "README.md"
+authors = [{ name = "Antonio Menta"}]
+requires-python = ">=3.9"
+keywords = [
+    "LLM",
+    "dataset",
+    "NLP",
+    "synthetic",
+]
+dependencies = [
+
+]
