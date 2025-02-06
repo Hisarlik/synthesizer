@@ -13,5 +13,7 @@ keywords = [
     "synthetic",
 ]
 dependencies = [
+    "distilabel",
+    "langchain"
 
 ]

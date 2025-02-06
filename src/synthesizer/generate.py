@@ -95,8 +95,8 @@ with Pipeline(name="ExamGenerator") as pipeline:
                 structured_output={
                     "schema": ExamQuestions.model_json_schema(),
                     "format": "json"
-                },
-                generation_kwargs={"max_new_tokens": 4000},
+                }
+       
         ),
         columns=["page"],
         output_mappings={"model_name": "generation_model"},
@@ -114,7 +114,7 @@ if __name__ == "__main__":
             text_generation.name: {
                 "llm": {
                     "generation_kwargs": {
-                    
+                        "max_new_tokens": 4000,
                     }
                 }
             }
