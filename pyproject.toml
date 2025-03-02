@@ -13,7 +13,7 @@ keywords = [
     "synthetic",
 ]
 dependencies = [
-    "distilabel",
+    "distilabel[openai, instructor]",
     "langchain"
 
 ]
